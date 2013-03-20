@@ -1,0 +1,112 @@
+body{
+	background-color: #f9f9f9;
+}
+
+.box{
+	border:1px solid #ddd;
+	font-size: 20px;
+	margin-top: -1%;
+	background-color: #fff;
+	padding: 2%;
+	margin-bottom: 20px;
+}
+.cajaLogo{
+	padding: 15px 0px 0px 0px !important;
+}
+.box #logo{
+	width: 100%;
+}
+
+.nav-bar{
+
+	background-color: #fff;
+}
+
+.nav-bar li{
+	border:1px solid #ddd;
+	border-right:0px;
+}
+.nav-bar li:last-child{
+	border-right:1px solid #ddd;
+}
+.nav-bar li a{
+	font-weight: bold;
+	color: #424242;
+}
+
+.nav-bar li a:hover{
+	color: white;
+	background-color: #1BA1E2;
+}
+
+.sidebar{
+	background-color: #f0f0f0;
+	padding: 0%;
+}
+
+.sidebar h4{
+	padding: 3%;
+}
+
+.sidebar ul{
+	width: 100%;
+}
+.sidebar ul li{
+	border-left:3px solid #1BA1E2 !important;	
+}
+.sidebar ul li a{
+	width: 100%;
+	background-color: white !important;
+	border-bottom: 1px solid #1BA1E2;
+	padding: 7px;
+	font-weight: bold;
+}
+
+.sidebar ul li a:hover{
+	background-color: #1BA1E2 !important;
+	color:white !important;
+}
+
+#cityDropdown,textarea{
+	outline: none;
+	font-size: 20px;
+	width: 100%;
+	padding: 5px;
+}
+
+#cityDropdown:focus,textarea:focus{
+	border:2px solid #1BA1E2;
+}
+
+label{
+	font-size: 1.25em;
+	margin:20px 0px 10px 0px;
+}
+
+#map_canvas{
+	border:1px solid #1BA1E2;
+}
+
+.Submit{
+	margin-top: 20px;
+	float:right;
+	width: 200px;
+}
+#eligeCiudad{
+	overflow: hidden;
+}
+h4{
+	margin-top: 35px;
+	color:#4d4d4d;
+}
+
+#nombreCiudad{
+	font-weight: bold;
+}
+#cajaMapa{
+
+}
+
+.button{
+	background-color: #1BA1E2 !important;
+}
